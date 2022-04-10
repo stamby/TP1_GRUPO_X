@@ -33,4 +33,18 @@ public class Profesor extends Empleado {
 				this.cargo,
 				this.antiguedadDocente);
 	}
+	
+	public boolean esIgualA(Profesor p) {
+		if (this.getNombre() == p.getNombre()) {
+			if (this.getEdad() == p.getEdad()) {
+				if (this.getCargo() == p.getCargo()) {
+					if (this.getAntiguedadDocente() == p.getAntiguedadDocente()) {
+						return true;
+					}
+				}
+			}
+		}
+		
+		return false;
+	}
 }

@@ -56,7 +56,7 @@ public class mainEjercicio1_a {
 		System.out.print("ID, Nombre, Edad, Cargo, Antigüedad Docente\n");
 		
 		while (iter.hasNext()) {
-			System.out.print(iter.next() + "\n");
+			System.out.print(iter.next().toString() + "\n");
 		}
 	}
 }

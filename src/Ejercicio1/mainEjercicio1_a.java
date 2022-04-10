@@ -1,6 +1,6 @@
 package Ejercicio1;
 
-import java.util.ArrayList;
+import java.util.*;
 
 public class mainEjercicio1_a {
 	public static void main(String[] args) {
@@ -50,5 +50,13 @@ public class mainEjercicio1_a {
 		profesor.setAntiguedadDocente(27);
 
 		profesores.add(profesor);
+		
+		Iterator<Profesor> iter = profesores.iterator();
+		
+		System.out.print("ID, Nombre, Edad, Cargo, Antigüedad Docente\n");
+		
+		while (iter.hasNext()) {
+			System.out.print(iter.next() + "\n");
+		}
 	}
 }

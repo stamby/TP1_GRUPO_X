@@ -15,12 +15,16 @@ public class mainEjercicio1_a {
 		
 		profesores.add(profesor);
 		
+		profesor = new Profesor();
+		
 		profesor.setNombre("Juliana Álvarez");
 		profesor.setCargo("Titular");
 		profesor.setEdad(38);
 		profesor.setAntiguedadDocente(14);
 		
 		profesores.add(profesor);
+		
+		profesor = new Profesor();
 		
 		profesor.setNombre("Marcos Martínez");
 		profesor.setCargo("Jefe de Trabajos Prácticos");
@@ -29,12 +33,16 @@ public class mainEjercicio1_a {
 		
 		profesores.add(profesor);
 		
+		profesor = new Profesor();
+		
 		profesor.setNombre("Jesús López");
 		profesor.setCargo("Jefe de Trabajos Prácticos");
 		profesor.setEdad(34);
 		profesor.setAntiguedadDocente(8);
 		
 		profesores.add(profesor);
+		
+		profesor = new Profesor();
 		
 		profesor.setNombre("Mariana González");
 		profesor.setCargo("Titular");

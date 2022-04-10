@@ -28,7 +28,7 @@ public class Empleado {
 	
 	
 
-	public String getId() {
+	public int getId() {
 		return id;
 	}
 

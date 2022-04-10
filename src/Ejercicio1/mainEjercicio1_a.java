@@ -13,20 +13,28 @@ public class mainEjercicio1_a {
 		profesor.setEdad(40);
 		profesor.setAntiguedadDocente(15);
 		
+		profesores.add(profesor);
+		
 		profesor.setNombre("Juliana Álvarez");
 		profesor.setCargo("Titular");
 		profesor.setEdad(38);
 		profesor.setAntiguedadDocente(14);
+		
+		profesores.add(profesor);
 		
 		profesor.setNombre("Marcos Martínez");
 		profesor.setCargo("Jefe de Trabajos Prácticos");
 		profesor.setEdad(29);
 		profesor.setAntiguedadDocente(6);
 		
+		profesores.add(profesor);
+		
 		profesor.setNombre("Jesús López");
 		profesor.setCargo("Jefe de Trabajos Prácticos");
 		profesor.setEdad(34);
 		profesor.setAntiguedadDocente(8);
+		
+		profesores.add(profesor);
 		
 		profesor.setNombre("Mariana González");
 		profesor.setCargo("Titular");

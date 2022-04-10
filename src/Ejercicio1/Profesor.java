@@ -4,6 +4,10 @@ public class Profesor extends Empleado {
 	private String cargo;
 	private int antiguedadDocente;
 	
+	public Profesor() {
+		super();
+	}
+	
 	public String getCargo() {
 		return cargo;
 	}
